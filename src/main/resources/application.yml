@@ -4,8 +4,8 @@ server:
 
 spring:
   datasource:
-    # url: jdbc:mysql://192.168.20.28:3306/ssfw_js_new?characterEncoding=utf8&usSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
-    url: jdbc:mysql://10.112.148.21:3306/dyg_out?characterEncoding=utf8&usSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://192.168.30.43/yccc?characterEncoding=utf8&usSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    # url: jdbc:mysql://10.112.148.21:3306/dyg_out?characterEncoding=utf8&usSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
     username: PASS(ZkqebKPIHQc=)
     password: PASS(2JxVwgJiDqZJNqNvB6XYxg==)
     driverClassName: com.mysql.cj.jdbc.Driver
@@ -18,7 +18,7 @@ mybatis-plus:
     # 开启sql日志，
     # log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl  # 打印到控制台
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 打印到文件
-  mapper-locations: classpath:mappers/*xml
+  mapper-locations: classpath:mapper/*xml
 
 
 ############## Sa-Token 配置 (文档: https://sa-token.cc) ##############

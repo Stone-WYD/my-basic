@@ -19,8 +19,8 @@ public class Knife4jConfiguration {
         Docket docket = new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
                         // 描述字段
-                        .title("海南云柜")
-                        .description("海南高院云柜定制，后台管理系统")
+                        .title("盐城云柜")
+                        .description("盐城高院云柜定制，后台管理系统")
                         .contact(new Contact("南京铉盈", "http://www.njxnet.com/", ""))
                         // 团队地址 .termsOfServiceUrl("")
                         // 联系我们 .contact("")
@@ -30,7 +30,7 @@ public class Knife4jConfiguration {
                 // 分组名称
                 // .groupName("springboot-1")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.njxnet.hncc.service.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.njxnet.yccc.controller"))
                 .paths(PathSelectors.any())
                 .build();
 
